@@ -3,5 +3,15 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "light-dev",
   },
-  plugins: ["gatsby-plugin-netlify-cms"],
+  plugins: [
+    "gatsby-plugin-netlify-cms",
+    {
+      resolve: "gatsby-plugin-google-fonts",
+      options: {
+        fonts: ["Nunito"],
+        display: "swap"
+      }
+
+    }
+  ],
 };

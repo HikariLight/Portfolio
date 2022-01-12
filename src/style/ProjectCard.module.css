@@ -1,0 +1,8 @@
+.card{
+    border: 1px solid var(--themeGreen);
+    padding: 1em;
+}
+
+.content{
+    text-align: left;
+}
