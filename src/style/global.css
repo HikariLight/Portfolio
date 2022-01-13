@@ -62,15 +62,6 @@ nav ul a{
     padding: 2em;
 }
 
-footer{
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    height: 2em;
-    padding: 1em;
-    text-align: center;
-}
-
 /* Global Classes*/
 
 .selfies{
@@ -79,8 +70,8 @@ footer{
 }
 
 .icon{
-    margin: 0;
-    padding: 0.5em;
+    margin: 0 0.5em;
+    padding: 0;
 }
 
 .greenButton{
