@@ -6,6 +6,7 @@ import {personalCard} from "../style/IndexPage.module.css"
 const IndexPage = () => {
   return (
       <Layout>
+        <title>LightDev | Home</title>
         <div className="gridContainer">
           <section className= {personalCard}>
             <h1 className="greenText">Hello!</h1>

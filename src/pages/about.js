@@ -6,6 +6,7 @@ import {aboutCard} from "../style/about.module.css"
 const AboutPage = () => {
   return (
     <Layout>
+      <title>LightDev | About Me</title>
       <div className="gridContainer">
         <section>
           <img className="selfies" src="MeAtUni.jpg" alt="Me at University"></img>
