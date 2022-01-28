@@ -1,22 +1,18 @@
-/* Variables */
 html{
     --themeDefault: #434343;
     --themeGreen: #14971F;
 }
-
-/* Normalizing values */
 
 *{
     margin: 0;
     padding: 0;
 }
 
-/* Global CSS */
 body{
     font-family: Nunito, Helvetica, Arial;
     font-size: 20px;
     color: var(--themeDefault);
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -46,10 +42,16 @@ li{
     margin: 0.5em;
 }
 
-/* Page CSS */
 header{
     text-align: center;
     margin: 1em;
+    min-height: 5vh;
+}
+
+main{
+    display: flex;
+    min-height: 80vh;
+    align-content: center;
 }
 
 nav ul > *{
@@ -61,7 +63,17 @@ nav ul a{
     padding: 2em;
 }
 
-/* Global Classes*/
+footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    min-height: 5vh;
+}
+
+footer > *{
+    display: inline;
+}
 
 .selfies{
     max-width: 100%;
@@ -75,7 +87,7 @@ nav ul a{
 .greenButton{
     border: 1px solid var(--themeGreen);
     background-color: var(--themeGreen);
-    padding: 1em;
+    padding: 1em 2em;
     border-radius: 25px;
 }
 
@@ -87,8 +99,11 @@ nav ul a{
     color: var(--themeGreen);
 }
 
-.signedText{
-    /* color: var(--themeGreen); */
+.centeredText{
+    text-align: center;
+}
+
+.underlinedText{
     text-decoration: underline;
 }
 

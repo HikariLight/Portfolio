@@ -6,7 +6,7 @@ import "../style/global.css"
 const PortfolioPage = () => {
   return (
     <Layout>
-      <title>LightDev | Portfolio</title>
+      <title>Light | Portfolio</title>
       <div className="gridContainer">
         <ProjectCard name="ClearView" description="Chrome Extension that summarises and simplfies web pages" tech="HTML, CSS and JS" link="#"></ProjectCard>
         <ProjectCard name="KeyboardAuth" description="Authenticating users using Keyboard Dynamics" tech="React JS" link="https://github.com/HikariLight/KeyboardAuth"></ProjectCard>

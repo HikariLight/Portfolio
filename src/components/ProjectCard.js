@@ -6,8 +6,8 @@ const ProjectCard = ({name, description, tech, link}) => {
         <section className = {card}>
             <h1 className="greenText">{name}</h1>
             <ul className = {content}>
-                <li><span className = "greenText signedText">Description:</span> {description}</li>
-                <li><span className = "greenText signedText">Technologies Used:</span> {tech}</li>
+                <li><span className = "greenText underlinedText">Description:</span> {description}</li>
+                <li><span className = "greenText underlinedText">Technologies Used:</span> {tech}</li>
             </ul>
             <a className="greenText" href = {link}>Link</a>
         </section>
