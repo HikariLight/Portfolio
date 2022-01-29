@@ -1,6 +1,7 @@
 html{
     --themeDefault: #434343;
     --themeGreen: #14971F;
+    --themeBackground: #F2F1E7;
 }
 
 *{
@@ -12,12 +13,13 @@ body{
     font-family: Nunito, Helvetica, Arial;
     font-size: 20px;
     color: var(--themeDefault);
+    background-color: var(--themeBackground);
     height: 100vh;
     overflow: hidden;
 }
 
 h1{
-    margin: 1em;
+    margin: 0.75em;
 }
 
 p{

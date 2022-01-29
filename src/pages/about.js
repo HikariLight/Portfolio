@@ -21,12 +21,12 @@ const AboutPage = () => {
             <h1 className="greenText centeredText">Education</h1>
               <ul>
                 <li>
-                  * Bachelor's Degree in Computer Science <br></br>
+                  Bachelor's Degree in Computer Science <br></br>
                   University of Caen Normandie<br></br>
                   2018 - 2022
                 </li>
                 <li>
-                  * Baccalaureate of Science.<br></br>
+                  Baccalaureate of Science.<br></br>
                   2017<br></br>
                   High Honors.
                 </li>
@@ -39,7 +39,7 @@ const AboutPage = () => {
               <li>Programming Languages: C, Java, Python, PHP, HTML, CSS, Javascript</li>
               <li>Frameworks: Tensorflow, Django, Node JS, React JS, Vue JS, Gatsby</li>
               <li>Good understanding of Algorithms and Data Structures.</li>
-              <li>Tools: Git/Github, Docjer, Slack, Microsoft Teams, Adobe XD</li>
+              <li>Tools: Git/Github, Docker, Slack, Microsoft Teams, Adobe XD</li>
             </ul>
           </article>
         </section>
