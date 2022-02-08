@@ -11,9 +11,9 @@ const AboutPage = () => {
 
       <section className = {aboutCard}>
           <h1 className="greenText centeredText">About Me</h1>
-          <p>I'm a Geek at heart. If you can think of anything that's nerdy, whether that's anime, manga, tabletop games like Dungeons and Dragons, then chances are I'm already a fan, haha.</p>
-          <p>Currently a final year Computer Science student at the University of Caen Normandie, I have worked on many projects throughout my Academic career. I've had plenty of personal and school experiences that makes me ready to learn as much as I can from any opportunities given to me.</p>
-          <p>I am very passionate about computer science, am most interested in Artificial Intelligence and robotics. However what first got me into Computer Science, as well as what I wish to do for the time being, is Web Development.</p>
+          <p>I recently graduated with a bachelor's degree in Computer Science from the University of Caen Normandie. Thoughout my years there, I've worked on many projects that have given me much experience on what it's like to work with a team and develop software on a deadline.</p>
+          <p>On a personal level, I'm a geek at heart. If you can think of anything that's nerdy, whether that's anime, manga, tabletop games like Dungeons and Dragons, then chances are I'm already a fan, haha.</p>
+          <p>I am very passionate about computer science, and have been since I was little. I'm ready to learn more from any opportunities given to me</p>
         </section>
 
         <section>
@@ -39,7 +39,8 @@ const AboutPage = () => {
               <li>Programming Languages: C, Java, Python, PHP, HTML, CSS, Javascript</li>
               <li>Frameworks: Tensorflow, Django, Node JS, React JS, Vue JS, Gatsby</li>
               <li>Good understanding of Algorithms and Data Structures.</li>
-              <li>Tools: Git/Github, Docker, Slack, Microsoft Teams, Adobe XD</li>
+              <li>Good understanding of Agile methodologies.</li>
+              <li>Tools: Git/Github, Docker, Trello, Jira, Adobe XD</li>
             </ul>
           </article>
         </section>

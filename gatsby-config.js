@@ -11,12 +11,6 @@ module.exports = {
         fonts: ["Nunito"],
         display: "swap"
       }
-    },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        icon: 'static/favicon.svg',
-      }
     }
   ],
 };
