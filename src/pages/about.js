@@ -9,24 +9,24 @@ const AboutPage = () => {
       <title>Light | About Me</title>
       <div className="gridContainer">
 
-      <section className = {aboutCard}>
+      <section className = {aboutCard} id="aboutMe">
           <h1 className="greenText centeredText">About Me</h1>
-          <p>I recently graduated with a bachelor's degree in Computer Science from the University of Caen Normandie. Thoughout my years there, I've worked on many projects that have given me much experience on what it's like to work with a team and develop software on a deadline.</p>
+          <p>I recently graduated with a bachelor's degree in Computer Science from the University of Caen Normandie. Throughout my years there, I've worked on many projects that have given me much experience on what it's like to work with a team and develop software on a deadline.</p>
           <p>On a personal level, I'm a geek at heart. If you can think of anything that's nerdy, whether that's anime, manga, tabletop games like Dungeons and Dragons, then chances are I'm already a fan, haha.</p>
           <p>I am very passionate about computer science, and have been since I was little. I'm ready to learn more from any opportunities given to me</p>
         </section>
 
         <section>
-          <article className = {aboutCard}>
+          <article className = {aboutCard} id="education">
             <h1 className="greenText centeredText">Education</h1>
               <ul>
                 <li>
-                  Bachelor's Degree in Computer Science <br></br>
+                  <span className="boldText">Bachelor's Degree in Computer Science</span> <br></br>
                   University of Caen Normandie<br></br>
                   2018 - 2022
                 </li>
                 <li>
-                  Baccalaureate of Science.<br></br>
+                <span className="boldText">Baccalaureate of Science.</span><br></br>
                   2017<br></br>
                   High Honors.
                 </li>
@@ -36,8 +36,8 @@ const AboutPage = () => {
           <article className = {aboutCard}>
           <h1 className="greenText centeredText">Skills</h1>
             <ul>
-              <li>Programming Languages: C, Java, Python, PHP, HTML, CSS, Javascript</li>
-              <li>Frameworks: Tensorflow, Django, Node JS, React JS, Vue JS, Gatsby</li>
+              <li>Programming Languages: C, Java, Python, PHP, HTML, CSS, Javascript.</li>
+              <li>Frameworks: Tensorflow, Django, Node JS, React JS, Vue JS, Gatsby, Electron.</li>
               <li>Good understanding of Algorithms and Data Structures.</li>
               <li>Good understanding of Agile methodologies.</li>
               <li>Tools: Git/Github, Docker, Trello, Jira, Adobe XD</li>

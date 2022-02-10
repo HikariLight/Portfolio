@@ -97,6 +97,10 @@ footer > *{
     color: white;
 }
 
+.boldText{
+    font-weight: 600;
+}
+
 .greenText{
     color: var(--themeGreen);
 }
