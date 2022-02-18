@@ -10,7 +10,6 @@ const ProjectCard = ({name, description, tech, link, tryLink}) => {
                 <li><span className = "greenText underlinedText">Technologies Used:</span> {tech}</li>
             </ul>
             
-
             <a className="greenText" href = {link}>Code</a>
             { tryLink && <a className="greenText" href = {tryLink}>Try it!</a>}
         </section>
