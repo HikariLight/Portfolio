@@ -4,3 +4,12 @@
     padding: 0.25em 1em;
     text-align: left;
 }
+
+#aboutMe{
+    display: grid;
+    place-content: center;
+}
+
+#education{
+    text-align: center;
+}
