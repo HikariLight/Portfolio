@@ -3,10 +3,32 @@
     padding: 1em;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 0.5em;
+}
+
 .content{
     text-align: left;
 }
 
 .card a{
     margin: 0 1.5em;
+}
+
+#imgContainer{
+    display: grid;
+    place-items: center;
+}
+
+#screenshot{
+    border: 1px solid var(--themeGreen);
+    width: 100%;
+    height: auto;
+}
+
+#links{
+    margin-top: 0.5em;
+    text-align: center;
 }
