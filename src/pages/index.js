@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout.js"
 import "../style/global.css"
 import {personalCard} from "../style/IndexPage.module.css"
@@ -6,7 +7,14 @@ import {personalCard} from "../style/IndexPage.module.css"
 const IndexPage = () => {
   return (
       <Layout>
-        <title>Light | Home</title>
+        <Helmet>
+          <meta charSet="utf-8"/>
+          <meta name="author" content="Dhia Merzougui"/>
+          <meta name="keywords" content="software developer, software engineer, web developer, programmer"/>
+          <meta name="description" content="Software engineer's portfolio website"/>
+          <title>Dhia | Home</title>  
+        </Helmet>
+        
         <div className="gridContainer">
           <section className= {personalCard}>
             <h1 className="greenText">Hello!</h1>

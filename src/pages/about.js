@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout.js"
 import "../style/global.css"
 import {aboutCard, aboutMe, education} from "../style/about.module.css"
@@ -6,7 +7,15 @@ import {aboutCard, aboutMe, education} from "../style/about.module.css"
 const AboutPage = () => {
   return (
     <Layout>
-      <title>Light | About Me</title>
+
+      <Helmet>
+        <meta charSet="utf-8"/>
+        <meta name="author" content="Dhia Merzougui"/>
+        <meta name="keywords" content="software developer, software engineer, web developer, programmer"/>
+        <meta name="description" content="Software engineer's portfolio website"/>
+        <title>Dhia | About Me</title>  
+      </Helmet>
+
       <div className="gridContainer">
 
       <section className = {aboutCard} id = {aboutMe}>

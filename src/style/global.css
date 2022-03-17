@@ -83,7 +83,7 @@ footer > *{
 
 .selfies{
     max-width: 100%;
-    height: 90%;
+    height: auto;
 }
 
 .icon{
@@ -151,17 +151,27 @@ footer > *{
         width: 70%;
     }
 
+    .selfies{
+        width: 60%;
+    }
+
     nav ul a{
         padding: 0.5em;
     }
 
     li{
-        margin: 1em
+        margin: 0 0.5em
     }
 
     .gridContainer{
         width: 100%;
         grid-template-columns: 1fr;
         grid-gap: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .selfies{
+        width: 90%;
     }
 }
