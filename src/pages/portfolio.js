@@ -13,6 +13,7 @@ const PortfolioPage = () => {
         <meta name="author" content="Dhia Merzougui"/>
         <meta name="keywords" content="software developer, software engineer, web developer, programmer"/>
         <meta name="description" content="Software engineer's portfolio website"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png"/>
         <title>Dhia | Portfolio</title>  
       </Helmet>
 
