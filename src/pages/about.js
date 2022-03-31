@@ -43,11 +43,11 @@ const AboutPage = () => {
           <article className = {aboutCard}>
           <h1 className="greenText centeredText">Skills</h1>
             <ul>
-              <li><span class="greenText">Programming Languages:</span> C, Java, Python, Javascript, Typescript PHP, HTML5, CSS3. SQL, MongoDB.</li>
-              <li><span class="greenText">Frameworks:</span> Node JS, React JS, Vue JS, Gatsby, Electron, Tensorflow, Django.</li>
+              <li><span class="greenText">Programming Languages:</span> C, Java, Python, Javascript, Typescript PHP, HTML5, CSS3. SQL, MongoDB, GraphQL.</li>
+              <li><span class="greenText">Frameworks:</span> Node JS, React JS, Vue JS, Express JS, Jest, Gatsby, Electron JS, Tensorflow, Django.</li>
               <li><span class="greenText">Tools:</span> Git/Github, Docker, Trello, Jira, Adobe XD.</li>
               <li>Good understanding of Algorithms and Data Structures.</li>
-              <li>Good understanding of Agile methodologies.</li>
+              <li>Good understanding and experience with Agile methodologies.</li>
               <li>Good understanding of Linux environments.</li>
             </ul>
           </article>
