@@ -4,7 +4,6 @@ module.exports = {
     title: "Dhia Dev",
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-react-helmet",
   ],
 };
